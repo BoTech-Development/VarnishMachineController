@@ -73,7 +73,7 @@
 					<TextBlock HorizontalAlignment="Center">Settings</TextBlock>
 				</StackPanel>
 			</Button>
-			<Button Margin="10 10 0 0">
+			<Button Margin="10 10 0 0" Command="{Binding ShowAboutDialogCommand}">
 				<StackPanel>
 					<materialIcons:MaterialIcon Kind="InfoCircle" Width="128" Height="128"/>
 					<TextBlock HorizontalAlignment="Center">About</TextBlock>
